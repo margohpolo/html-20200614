@@ -1,0 +1,63 @@
+.carousel,
+.carouselimg {
+  width: 960px;
+  height: 360px;
+}
+#mid_about,
+#mid_contact,
+#mid_map,
+#mid_ng {
+  display: flex;
+  height: 400px;
+  width: 1000px;
+  padding-left: 12px !important;
+  margin-left: 0 !important;
+}
+#aboutleft {
+  width: 225px !important;
+  text-align: left !important;
+  border: 1px solid black;
+}
+#aboutright {
+  width: 735px !important;
+  text-align: left !important;
+  border: 1px solid black;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+#myface {
+  height: 120px !important;
+  padding: 2px;
+}
+#aboutrightTop {
+  width: 100% !important;
+  display: flex;
+}
+#aboutList {
+  padding: 12px;
+  width: 30%;
+  text-align: left !important;
+}
+#aboutrightBottom {
+  width: 100%;
+}
+/* #formrow {
+  border: 1px solid black !important;
+} */
+#contactform {
+  text-align: justify !important;
+  width: 550px !important;
+}
+#mid_ng {
+  flex-wrap: wrap;
+}
+.ngCard {
+  height: 150px !important;
+  width: 138px !important;
+  margin: 10px !important;
+  border: 1px solid darkslategrey;
+  text-align: center;
+}
+footer {
+  display: flex;
+}
