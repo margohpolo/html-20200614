@@ -1,6 +1,7 @@
 .carousel,
 .carouselimg {
-  width: 960px;
+  width: 100% !important;
+  max-width: 960px;
   height: 360px;
 }
 #mid_about,
@@ -8,52 +9,87 @@
 #mid_map,
 #mid_ng {
   display: flex;
-  height: 400px;
-  width: 1000px;
+  width: 100% !important;
+  height: auto;
+  /* max-height: 400px; */
+  max-width: 960px;
   padding-left: 12px !important;
   margin-left: 0 !important;
 }
 #aboutleft {
-  width: 225px !important;
+  width: 24% !important;
+  height: auto;
+  max-width: 225px !important;
   text-align: left !important;
   border: 1px solid black;
 }
+h3 {
+  font-size: 2.5vw;
+}
+h5 {
+  font-size: 1.9vw;
+}
+p,
+ul li,
+.btn,
+.btn-primary,
+#contactform,
+.form-label,
+.form-control,
+.input-group-text {
+  font-size: 1.5vw;
+}
 #aboutright {
-  width: 735px !important;
+  width: 76% !important;
+  height: auto;
+  max-width: 735px !important;
   text-align: left !important;
   border: 1px solid black;
   padding: 0 !important;
   margin: 0 !important;
 }
 #myface {
-  height: 120px !important;
+  height: 80% !important;
+  width: auto;
+  max-height: 120px !important;
   padding: 2px;
 }
 #aboutrightTop {
   width: 100% !important;
+  height: auto;
+  margin: 0 !important;
   display: flex;
+  flex-wrap: wrap;
+  padding: 0 !important;
 }
 #aboutList {
-  padding: 12px;
+  padding: 2%;
   width: 30%;
+  height: auto;
   text-align: left !important;
 }
 #aboutrightBottom {
   width: 100%;
+  margin: 0 !important;
+  height: auto;
+  padding: 0 !important;
 }
 /* #formrow {
   border: 1px solid black !important;
 } */
 #contactform {
   text-align: justify !important;
-  width: 550px !important;
+  max-width: 550px !important;
+  height: auto;
 }
 #mid_ng {
   flex-wrap: wrap;
 }
 .ngCard {
-  height: 150px !important;
-  width: 138px !important;
+  width: 22% !important;
+  height: auto;
+  /* max-height: 150px !important; */
+  /* max-width: 150px !important; */
   margin: 10px !important;
   border: 1px solid darkslategrey;
   text-align: center;
